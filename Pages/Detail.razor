@@ -1,0 +1,48 @@
+@page "/detailpage/{id}"
+<h2>Details</h2>
+<h5>Student</h5>
+<hr>
+<div class="row">
+    <div class="col-2">
+        <td>Nim</td>
+    </div>
+    <div class="col-2">
+        <td>@Students.studentID</td>
+    </div>
+    <div class="col-7"></div>
+    <div class="col-2">
+        <td>Nama Belakang</td>
+    </div>
+    <div class="col-2">
+       <td>@Students.lastName</td>
+    </div>
+    <div class="col-7"></div>
+    <div class="col-2">
+        <td>Nama Depan</td>
+    </div>
+    <div class="col-2">
+        <td>@Students.firstName</td>
+    </div>
+    <div class="col-7"></div>
+    <div class="col-2">
+        <td>Tanggal Masuk</td>
+    </div>
+    <div class="col-3">
+        <td>@Students.enrollmentDate</td>
+    </div>
+    <div class="col-7"></div>
+    <div class="col-2">
+        <a href="@($"editstudent/{Students.studentID}")">Edit</a> 
+        <a >&nbsp | &nbsp</a>
+        <a href="/studentpage">Back to List</a>
+    </div>
+
+</div>
+        
+        
+        
+        
+        
+        
+        
+        

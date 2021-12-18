@@ -1,0 +1,24 @@
+@page "/enrollment"
+
+<h2>ShowEnrollment</h2>
+ <a href="">Create New</a> 
+ <a><br></a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>CourseID</th>
+            <th>Title</th>
+            <th>Credits</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var stud in Students)
+        {
+            <tr>
+                <td>@stud.courseID</td>
+                <td>@stud.title</td>
+                <td>@stud.courseID</td>
+            </tr>
+        }
+    </tbody>
+</table>
