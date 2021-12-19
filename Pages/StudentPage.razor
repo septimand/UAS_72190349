@@ -23,7 +23,7 @@
                 <td>@stud.enrollmentDate</td>
                 <td>
                 <a href="@($"detailpage/{stud.studentID}")" class="btn btn-info">details</a>
-                <a href="/enrollment" class="btn btn-primary">enroll</a>
+                <a href="@($"enrollment/{stud.studentID}")" class="btn btn-primary">enroll</a>
                 <a href="@($"editstudent/{stud.studentID}")" class="btn btn-warning">edit</a>
                 <a href="@($"deletestudent/{stud.studentID}")" class="btn btn-danger">delete</a></td>
             </tr>

@@ -8,6 +8,92 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 192897105,
+        "Kind": "Components.Component",
+        "Name": "UAS.Pages.AddStudent",
+        "AssemblyName": "UAS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddStudent"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UAS.Pages.AddStudent"
+        }
+      },
+      {
+        "HashCode": -1516246324,
+        "Kind": "Components.Component",
+        "Name": "UAS.Pages.AddStudent",
+        "AssemblyName": "UAS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UAS.Pages.AddStudent"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UAS.Pages.AddStudent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2102563379,
+        "Kind": "Components.Component",
+        "Name": "UAS.Pages.DeleteStudent",
+        "AssemblyName": "UAS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DeleteStudent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UAS.Pages.DeleteStudent"
+        }
+      },
+      {
+        "HashCode": -870315256,
+        "Kind": "Components.Component",
+        "Name": "UAS.Pages.DeleteStudent",
+        "AssemblyName": "UAS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UAS.Pages.DeleteStudent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UAS.Pages.DeleteStudent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 233962128,
         "Kind": "Components.Component",
         "Name": "UAS.Pages.Detail",
@@ -110,6 +196,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "UAS.Pages.EditStudent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1902487266,
+        "Kind": "Components.Component",
+        "Name": "UAS.Pages.EnrollmentPage",
+        "AssemblyName": "UAS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EnrollmentPage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UAS.Pages.EnrollmentPage"
+        }
+      },
+      {
+        "HashCode": 252423034,
+        "Kind": "Components.Component",
+        "Name": "UAS.Pages.EnrollmentPage",
+        "AssemblyName": "UAS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UAS.Pages.EnrollmentPage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UAS.Pages.EnrollmentPage",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -242,125 +381,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "UAS.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 192897105,
-        "Kind": "Components.Component",
-        "Name": "UAS.Pages.AddStudent",
-        "AssemblyName": "UAS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AddStudent"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UAS.Pages.AddStudent"
-        }
-      },
-      {
-        "HashCode": -1516246324,
-        "Kind": "Components.Component",
-        "Name": "UAS.Pages.AddStudent",
-        "AssemblyName": "UAS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "UAS.Pages.AddStudent"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UAS.Pages.AddStudent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 2102563379,
-        "Kind": "Components.Component",
-        "Name": "UAS.Pages.DeleteStudent",
-        "AssemblyName": "UAS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DeleteStudent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UAS.Pages.DeleteStudent"
-        }
-      },
-      {
-        "HashCode": -870315256,
-        "Kind": "Components.Component",
-        "Name": "UAS.Pages.DeleteStudent",
-        "AssemblyName": "UAS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "UAS.Pages.DeleteStudent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UAS.Pages.DeleteStudent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1441339764,
-        "Kind": "Components.Component",
-        "Name": "UAS.Pages.Enrollment",
-        "AssemblyName": "UAS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Enrollment"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UAS.Pages.Enrollment"
-        }
-      },
-      {
-        "HashCode": 207557543,
-        "Kind": "Components.Component",
-        "Name": "UAS.Pages.Enrollment",
-        "AssemblyName": "UAS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "UAS.Pages.Enrollment"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UAS.Pages.Enrollment",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13287,8 +13307,8 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\UAS\\Pages\\Enrollment.razor",
-      "TargetPath": "Pages\\Enrollment.razor",
+      "FilePath": "d:\\tugas\\semester 5\\Pemrograman Frontend\\UAS\\Pages\\EnrollmentPage.razor",
+      "TargetPath": "Pages\\EnrollmentPage.razor",
       "FileKind": "component"
     },
     {

@@ -1,4 +1,4 @@
-@page "/enrollment"
+@page "/enrollment/{id}"
 
 <h2>ShowEnrollment</h2>
  <a href="">Create New</a> 
@@ -6,19 +6,26 @@
 <table class="table table-striped">
     <thead>
         <tr>
+            <th>Nim</th>
             <th>CourseID</th>
             <th>Title</th>
             <th>Credits</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var stud in Students)
+        @foreach (var stud in Enrollments)
         {
             <tr>
+                <td>@stud.studentID</td>
                 <td>@stud.courseID</td>
                 <td>@stud.title</td>
                 <td>@stud.courseID</td>
             </tr>
         }
+        @* <tr>
+                <td>@Enrollments.courseID</td>
+                <td>@Enrollments.title</td>
+                <td>@Enrollments.courseID</td>
+            </tr> *@
     </tbody>
 </table>

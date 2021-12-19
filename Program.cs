@@ -21,6 +21,7 @@ namespace UAS
             var uri = new Uri("https://akademikbackend.azurewebsites.net");
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = uri });
             builder.Services.AddScoped<IStudent,StudentService>();
+            builder.Services.AddScoped<IEnrollService,EnrollService>();
             
 
             await builder.Build().RunAsync();

@@ -640,5 +640,5 @@ D:\tugas\semester 5\Pemrograman Frontend\UAS\obj\Debug\net5.0\RazorDeclaration\P
 D:\tugas\semester 5\Pemrograman Frontend\UAS\obj\Debug\net5.0\Razor\Pages\AddStudent.razor.g.cs
 D:\tugas\semester 5\Pemrograman Frontend\UAS\obj\Debug\net5.0\RazorDeclaration\Pages\DeleteStudent.razor.g.cs
 D:\tugas\semester 5\Pemrograman Frontend\UAS\obj\Debug\net5.0\Razor\Pages\DeleteStudent.razor.g.cs
-D:\tugas\semester 5\Pemrograman Frontend\UAS\obj\Debug\net5.0\RazorDeclaration\Pages\Enrollment.razor.g.cs
-D:\tugas\semester 5\Pemrograman Frontend\UAS\obj\Debug\net5.0\Razor\Pages\Enrollment.razor.g.cs
+D:\tugas\semester 5\Pemrograman Frontend\UAS\obj\Debug\net5.0\RazorDeclaration\Pages\EnrollmentPage.razor.g.cs
+D:\tugas\semester 5\Pemrograman Frontend\UAS\obj\Debug\net5.0\Razor\Pages\EnrollmentPage.razor.g.cs
