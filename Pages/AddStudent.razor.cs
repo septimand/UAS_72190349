@@ -19,8 +19,9 @@ namespace UAS.Pages
         [Inject]
         public NavigationManager NavigationManager { get; set; }
         protected async Task HandleValidSubmit(){
-            var result = await StudentService.Add(Student);
             NavigationManager.NavigateTo("/studentpage");
+            var result = await StudentService.Add(Student);
+            
         }
     }
 }
