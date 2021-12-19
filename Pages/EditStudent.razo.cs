@@ -29,7 +29,7 @@ namespace UAS.Pages
 
         protected async Task HandleValidSubmit(){
             var result = await StudentService.Update(int.Parse(Id),Student);
-             NavigationManager.NavigateTo("/studentpage");
+             NavigationManager.NavigateTo("studentpage");
         }
 
     }
